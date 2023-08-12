@@ -20,7 +20,7 @@ class DioHelperPayment{
       return await dio.get(url,queryParameters: query);
     }
 
-    Future<Response> postData({
+  static  Future<Response> postData({
       required String url,
       required Map<String,dynamic>? data,
       Map<String,dynamic>? query,

@@ -19,7 +19,7 @@ class PaymentApp extends StatelessWidget {
       theme: ThemeData(
 
       ),
-      home: RegisterScreen(),
+      home:  RegisterScreen(),
     );
   }
 }
