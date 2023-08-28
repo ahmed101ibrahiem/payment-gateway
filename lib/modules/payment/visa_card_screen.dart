@@ -23,7 +23,7 @@ class _VisaCardScreenState extends State<VisaCardScreen> {
           backgroundColor: defColor,
         actions: [
           IconButton(onPressed: (){
-
+            exit(context);
           }, icon: Icon(Icons.exit_to_app))
         ],
       ),
